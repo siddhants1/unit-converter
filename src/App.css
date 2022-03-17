@@ -1,0 +1,104 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversion-card {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.amount-para {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #42a6c2;
+}
+
+.amount-input {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.from-to-btn-container {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.from-to-inner-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.to-from-para {
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #42a6c2;
+}
+
+.from-container, .to-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.from-to-input {
+    padding: 0.5rem;
+}
+
+.convert-btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #42a6c2;
+}
+
+.convert-btn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1b27cfe8;
+}
+
+.dropdown {
+    padding: 0.5rem;
+    min-width: 140px;
+}
+
+.result-para {
+    margin-top: 0.5rem;
+    text-align: center;
+    color: blue;
+}
+
+.reset-btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #42a6c2;
+}
+
+.reset-btn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1b27cfe8;
+}
+
+@media (max-width: 33.75em) {
+    .from-to-inner-container {
+        display: block;
+    }
+}
+
+@media (max-width: 18.75em) {
+    .conversion-card {
+        padding: 1rem;
+    }
+}
